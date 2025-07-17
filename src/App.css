@@ -1,3 +1,99 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:where([class^="ri-"])::before {
+  content: "\f3c2";
+}
+
+.hero-bg {
+  background: linear-gradient(to right, #ffffff 50%, #f0f7ff 50%);
+  position: relative;
+  overflow: hidden;
+}
+
+.floating-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.15;
+}
+
+.blob-1 {
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+  width: 300px;
+  height: 300px;
+  top: -100px;
+  left: -100px;
+}
+
+.blob-2 {
+  background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%);
+  width: 400px;
+  height: 400px;
+  bottom: -200px;
+  right: -150px;
+}
+
+.blob-3 {
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+  width: 350px;
+  height: 350px;
+  top: 20%;
+  left: -100px;
+}
+
+.blob-4 {
+  background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%);
+  width: 300px;
+  height: 300px;
+  bottom: 10%;
+  right: -100px;
+}
+
+.blob-5 {
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+  width: 250px;
+  height: 250px;
+  top: 30%;
+  left: -50px;
+}
+
+.blob-6 {
+  background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%);
+  width: 280px;
+  height: 280px;
+  bottom: -100px;
+  right: -80px;
+}
+
+.hero-left-image {
+  background-image: url('https://readdy.ai/api/search-image?query=modern%203d%20isometric%20illustration%20of%20person%20using%20smart%20shopping%20assistant%2C%20clean%20minimal%20style%2C%20soft%20shadows%2C%20professional%20lighting%2C%20light%20background%20with%20subtle%20geometric%20patterns%2C%20showing%20interactive%20holographic%20interface%2C%20high%20quality%203d%20rendering%2C%20professional%20product%20visualization&width=800&height=800&seq=hero-left-001&orientation=squarish');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  height: 100%;
+}
+
+.hero-right-image {
+  background-image: url('https://readdy.ai/api/search-image?query=floating%203d%20holographic%20shopping%20cards%20and%20interface%20elements%2C%20transparent%20gradient%20effects%2C%20modern%20UI%20design%2C%20soft%20glowing%20elements%2C%20product%20recommendation%20cards%2C%20minimal%20clean%20style%2C%20light%20blue%20background%2C%20professional%203d%20visualization&width=800&height=800&seq=hero-right-001&orientation=squarish');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  height: 100%;
+  opacity: 0.9;
+}
+
 .App {
   text-align: center;
 }
