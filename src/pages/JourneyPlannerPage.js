@@ -9,7 +9,6 @@ function JourneyPlannerPage() {
     const [selectedTask, setSelectedTask] = useState(null);
     const [customTask, setCustomTask] = useState('');
     const [showMap, setShowMap] = useState(false);
-
     const handleTaskSelection = (task) => {
         setSelectedTask(task);
         setShowMap(false);

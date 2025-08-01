@@ -366,3 +366,13 @@ body {
 .gradient-bg {
     background: linear-gradient(135deg, #ff6b9a 0%, #6b7aff 100%);
 }
+
+/*Signup*/
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
